@@ -1,29 +1,39 @@
 <!DOCTYPE html>
 <head>
 <meta charset="UTF-8" lang="en">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 <title>My first website</title>
 </head>
 <body>
     <div class="first-section">
-    <div class="navbar">
+      <div class="navbar">
         <div class="navbar-left"> 
             <p id="header-logo"> Header Logo </p>
         </div>
         <div class="navbar-right">
         <ul style="list-style-type: none;">
-            <li>header link one</li>
-            <li>header link two</li>
-            <li>header link three</li>
+            <li class="header-link">header link one</li>
+            <li class="header-link">header link two</li>
+            <li class="header-link">header link three</li>
         </ul>
-            <p>This website is awesome</p>
-            <p>This website has some subtext that goes here under the main title. It's a smaller
+    </div> 
+        <div class="content">
+            <div class="content-left">
+            <h1>This website is <br>awesome</h1>
+            <p class="first-p">This website has some subtext that goes here under the <br>main title. It's a smaller
                 font and the
-                color is lower contrast.</p>
-                <button inputmode="text">Sign up!</button>
-                <p>This is a placeholder for an image</p>
+                color is <br> lower contrast.</p>
+                <button type="button" class="first-button">Sign up</button>
+                </div>
+                <div class="content-right">
+                <img src="https://images.pexels.com/photos/4974912/pexels-photo-4974912.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="280" height="200" alt="Person programming">
             </div>
-        </div> 
+            </div>
+     </div>
+    </div>   
 </body>
 
 

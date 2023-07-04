@@ -1,10 +1,8 @@
-  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
 body{
     margin: 0;
     padding: 0;
-    font-family: Roboto;
-}
+    font-family: 'Roboto Slab', serif;
+  }
 
 .first-section{
 background: #1f2937 ;
@@ -13,4 +11,70 @@ background: #1f2937 ;
 #header-logo{
     font-size: 24px;
     color: #f9faf8;
+}
+
+.header-link{
+  font-size: 18px;
+  color: #e5e7eb;
+
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-left, .navbar-right{
+display: flex;
+width: 50%;
+justify-content: center;
+align-items: center;
+}
+
+h1{
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9faf8
+}
+
+.content{
+  display: flex;
+  flex-direction: row;
+  margin: 50px;
+}
+
+.content-right{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  flex-direction: column;
+  width: 50%;
+}
+
+.content-left{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  margin-left: 150px;
+} 
+
+img{
+  margin: 50px;
+}
+
+.first-p{
+  font-size: 18px;
+  color: #e5e7eb; 
+}
+
+.first-button{
+  background-color: #3882f6;
+  color: white;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 15px;
+  border: 1px solid black;
+  border-radius: 8px;
 }
